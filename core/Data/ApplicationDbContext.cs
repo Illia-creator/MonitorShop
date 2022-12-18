@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace core.Data
+namespace WebApi.Data
 {
-    public class https ://github.com/Illia-creator/MonitorShop.git : IdentityDbContext
+    public class DataContext : IdentityDbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        public DataContext(DbContextOptions<DataContext> options)
             : base(options)
         {
         }
